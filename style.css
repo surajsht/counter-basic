@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.counter {
+  font-size: 8rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+button {
+  text-transform: capitalize;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+}
+
+button:not(:last-child) {
+  margin-right: 1rem;
+}
